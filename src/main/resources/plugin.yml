@@ -1,0 +1,17 @@
+name: WaterFight
+version: '${project.version}'
+main: com.github.happyrogelio7.waterfight.WaterFight
+api-version: 1.16
+authors: [ HappyRogelio7 ]
+description: WaterFight
+website: https://github.com/HappyRogelio7
+commands:
+
+  waterfight:
+    usage: /<command> [<args>]
+
+  waterfightadmin:
+    usage: /<command> [<args>]
+
+  waterfightkits:
+    usage: /<command> [<args>]

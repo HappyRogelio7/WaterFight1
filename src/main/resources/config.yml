@@ -1,0 +1,29 @@
+
+bungee-mode-options:
+  enabled: false # Enable bungee mode
+  server-name: WaterFight # Server name
+  join-teleport-game: true # Teleport to game when joining
+  game-teleport: waterfight join game0 # Teleport to game when joining
+  back-server: Hub # Server to teleport back to when leaving game
+
+
+
+lobby:
+  autojoin: false # autojoin when the lobby is opened
+  world: world # world to use for the lobby
+  spawn: null # spawn position
+
+worlds-enabled:
+  - lobby
+  - world
+  - world0 # worlds to enable
+  - world1
+  - world2
+  - world3
+
+games-options:
+  give-default-kit: true # give default kit when joining game
+  default-kit: default # default kit to give when joining game
+
+
+config-version: 1.0.0
